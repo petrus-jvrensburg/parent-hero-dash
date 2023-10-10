@@ -116,25 +116,30 @@
                 <div class="h-full flex flex-col gap-4">
                     <div class="flex gap-4">
                         <!-- pending request section -->
-                        <div class="bg-white rounded-xl">
-                            <div class="px-10 pt-8 pb-4 flex flex-col gap-2 text-black font-bold ">
-                                <div class="text-7xl font-bold">5</div>
-                                <div class="font-normal text-lg">Pending Leave Requests</div>
-                                <div class="relative h-10">
-                                    <img src="/images/person-1.png" class="rounded-full h-10 z-30 absolute left-0" />
-                                    <img src="/images/person-2.png" class="rounded-full h-10 z-20 absolute left-7" />
-                                    <img src="/images/person-3.png" class="rounded-full h-10 z-10 absolute left-14" />
-                                    <p class="absolute left-24 ml-1 mt-1 text-lg">+</p>
+                        <div>
+                            <div class="bg-white p-0 rounded-xl shadow-lg shadow-slate-200">
+                                <div class="px-10 pt-8 pb-4 flex flex-col gap-2 text-black font-bold">
+                                    <div class="text-7xl font-bold">5</div>
+                                    <div class="font-normal text-lg">Pending Leave Requests</div>
+                                    <div class="relative h-10">
+                                        <img src="/images/person-1.png"
+                                            class="rounded-full h-10 z-30 absolute left-0" />
+                                        <img src="/images/person-2.png"
+                                            class="rounded-full h-10 z-20 absolute left-7" />
+                                        <img src="/images/person-3.png"
+                                            class="rounded-full h-10 z-10 absolute left-14" />
+                                        <p class="absolute left-24 ml-1 mt-1 text-lg">+</p>
+                                    </div>
                                 </div>
+                                <a href="#"
+                                    class="py-8 px-12 flex w-full text-lg text-white bg-purple-700 hover:bg-purple-800 rounded-b-xl">
+                                    <span class="flex-grow">Review Now</span>
+                                    <img src="/images/chevron-large.svg" />
+                                </a>
                             </div>
-                            <a href="#"
-                                class="py-8 px-12 flex w-full text-lg text-white bg-purple-700 hover:bg-purple-800 rounded-b-xl">
-                                <span class="flex-grow">Review Now</span>
-                                <img src="/images/chevron-large.svg" />
-                            </a>
                         </div>
                         <!-- trending topics section -->
-                        <div class="flex-grow p-8 bg-white text-sm rounded-xl">
+                        <div class="flex-grow p-4 bg-white text-sm rounded-xl shadow-lg shadow-slate-200">
                             <h2 class="font-bold text-lg pb-4">What parents in your organization care about</h2>
                             <div class="flex flex-col gap-2">
                                 <div class="flex flex-col">
@@ -184,7 +189,7 @@
                         <!-- graph section -->
                         <div class="flex gap-8">
                             <!-- first graph -->
-                            <div class="bg-white p-4 rounded-xl bg-pink-300">
+                            <div class="bg-white p-4 rounded-xl shadow-lg shadow-slate-200">
                                 <svg viewBox="0 0 450 490" height="490">
                                     <!-- title -->
                                     <text x="0" y="2" text-anchor="left" dominant-baseline="hanging"
@@ -291,12 +296,12 @@
                                 </svg>
 
                             </div>
-                            <div class="flex flex-col">
-                                <div class="bg-white rounded-xl">
+                            <div class="flex-grow flex flex-col gap-4">
+                                <div class="p-4 bg-white rounded-xl shadow-lg shadow-slate-200">
                                     Anxiety scores (GAD-7)
                                 </div>
 
-                                <div class="bg-white rounded-xl">
+                                <div class="p-4 bg-white rounded-xl shadow-lg shadow-slate-200">
                                     Depression scores (PHQ-9)
                                 </div>
                             </div>
