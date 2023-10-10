@@ -14,29 +14,71 @@
                     fontFamily: {
                         'sans': ['"Apercu"', "system-ui", "sans-serif"],
                     },
+                    colors: {
+                        'light': "#FAFBFF"
+                    }
                 }
             }
         }
     </script>
 </head>
 
-<body class=" antialiased h-full min-w-full p-8">
-    <h1 class="text-4xl pb-4">Hello world</h1>
+<body class="bg-light antialiased h-full min-w-full">
 
-    <div class="flex gap-8">
-        <div>
-            <p class="text-2xl font-light">Hello light</p>
-            <p class="text-2xl">Hello regular</p>
-            <p class="text-2xl font-medium">Hello medium</p>
-            <p class="text-2xl font-bold">Hello bold</p>
+
+    <div class="flex flex-col h-full">
+        <div class="bg-purple-700 h-24 p-4 flex gap-4 text-xl items-center">
+            <!-- navbar -->
+            <div>logo</div>
+            <div class="flex-grow">search</div>
+            <div>icons</div>
         </div>
-        <div>
-            <p class="text-2xl font-light italic">Hello light italic</p>
-            <p class="text-2xl italic">Hello regular italic</p>
-            <p class="text-2xl font-medium italic">Hello medium italic</p>
-            <p class="text-2xl font-bold italic">Hello bold italic</p>
+        <div class="flex flex-grow">
+
+            <div class="w-64 h-full bg-white p-8 flex flex-col">
+                <!-- sidebar -->
+                <div class="flex-grow flex flex-col">
+                    <!-- navigation -->
+                    <a href="#">Dashboard</a>
+                    <a href="#">Leave Management</a>
+                    <a href="#">Feedback</a>
+                </div>
+                <div>
+                    <!-- help section -->
+                    <p>Help section</p>
+                </div>
+            </div>
+            <div class="p-8 h-full w-full">
+                <!-- content -->
+                <h1 class="text-4xl pb-4">Hello Acme Corp Home 👋🏼,</h1>
+
+                <div class="h-full flex flex-col">
+                    <div class="flex">
+                        <div class="p-8">pending request section</div>
+                        <div class="flex-grow p-8">trending topics section</div>
+                    </div>
+                    <div class="flex-grow p-8 bg-green-300">
+                        graph section
+                        <div class="flex gap-8">
+                            <div>
+                                <p class="text-2xl font-light">Hello light</p>
+                                <p class="text-2xl">Hello regular</p>
+                                <p class="text-2xl font-medium">Hello medium</p>
+                                <p class="text-2xl font-bold">Hello bold</p>
+                            </div>
+                            <div>
+                                <p class="text-2xl font-light italic">Hello light italic</p>
+                                <p class="text-2xl italic">Hello regular italic</p>
+                                <p class="text-2xl font-medium italic">Hello medium italic</p>
+                                <p class="text-2xl font-bold italic">Hello bold italic</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
 </body>
 
 </html>
