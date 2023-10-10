@@ -49,22 +49,69 @@
         </div>
         <div class="flex flex-grow">
 
-            <div class="w-64 h-full bg-white p-8 flex flex-col">
+            <div class="w-80 h-full bg-white p-6 flex flex-col">
                 <!-- sidebar -->
-                <div class="flex-grow flex flex-col">
+                <div class="flex-grow flex flex-col gap-2 text-sm">
                     <!-- navigation -->
-                    <a href="#">Dashboard</a>
-                    <a href="#">Leave Management</a>
-                    <a href="#">Feedback</a>
+                    <a href="#" class="p-4 text-white bg-purple-700 hover:bg-purple-800 rounded-lg flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd"
+                                d="M9.493 2.853a.75.75 0 00-1.486-.205L7.545 6H4.198a.75.75 0 000 1.5h3.14l-.69 5H3.302a.75.75 0 000 1.5h3.14l-.435 3.148a.75.75 0 001.486.205L7.955 14h2.986l-.434 3.148a.75.75 0 001.486.205L12.456 14h3.346a.75.75 0 000-1.5h-3.14l.69-5h3.346a.75.75 0 000-1.5h-3.14l.435-3.147a.75.75 0 00-1.486-.205L12.045 6H9.059l.434-3.147zM8.852 7.5l-.69 5h2.986l.69-5H8.852z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <span class="flex-grow ml-2">Dashboard</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd"
+                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <a href="#" class="p-4 text-slate-400 hover:bg-slate-100 rounded-lg flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd"
+                                d="M9.493 2.853a.75.75 0 00-1.486-.205L7.545 6H4.198a.75.75 0 000 1.5h3.14l-.69 5H3.302a.75.75 0 000 1.5h3.14l-.435 3.148a.75.75 0 001.486.205L7.955 14h2.986l-.434 3.148a.75.75 0 001.486.205L12.456 14h3.346a.75.75 0 000-1.5h-3.14l.69-5h3.346a.75.75 0 000-1.5h-3.14l.435-3.147a.75.75 0 00-1.486-.205L12.045 6H9.059l.434-3.147zM8.852 7.5l-.69 5h2.986l.69-5H8.852z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <span class="flex-grow ml-2">Leave Management</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd"
+                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <a href="#" class="p-4 text-slate-400 hover:bg-slate-100 rounded-lg flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd"
+                                d="M9.493 2.853a.75.75 0 00-1.486-.205L7.545 6H4.198a.75.75 0 000 1.5h3.14l-.69 5H3.302a.75.75 0 000 1.5h3.14l-.435 3.148a.75.75 0 001.486.205L7.955 14h2.986l-.434 3.148a.75.75 0 001.486.205L12.456 14h3.346a.75.75 0 000-1.5h-3.14l.69-5h3.346a.75.75 0 000-1.5h-3.14l.435-3.147a.75.75 0 00-1.486-.205L12.045 6H9.059l.434-3.147zM8.852 7.5l-.69 5h2.986l.69-5H8.852z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <span class="flex-grow ml-2">Feedback</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd"
+                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
                 </div>
-                <div>
+                <div class="relative text-sm">
                     <!-- help section -->
-                    <p>Help section</p>
+                    <div class="text-center bg-[#F4F7FD] p-4 pt-8 rounded-2xl flex flex-col gap-4 mb-12">
+                        <p class="text-slate-900">Need help?</p>
+                        <p class="text-slate-500">Our support team is at your disposal</p>
+                        <a href="#"
+                            class="p-3 rounded-lg border border-2 border-slate-200 hover:bg-slate-100 text-slate-900">
+                            Get Help
+                        </a>
+                    </div>
+                    <div
+                        class="absolute -top-6 left-1/2 -translate-x-1/2 rounded-full bg-white p-3 z-10 shadow-lg shadow-slate-200">
+                        <img src="images/headphones.svg" />
+                    </div>
                 </div>
             </div>
             <div class="p-8 h-full w-full">
                 <!-- content -->
-                <h1 class="text-4xl pb-4">Hello Acme Corp Home 👋🏼,</h1>
+                <h1 class="text-4xl font-bold pb-4">Hello Acme Corp Home 👋🏼,</h1>
 
                 <div class="h-full flex flex-col">
                     <div class="flex">
